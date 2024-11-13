@@ -5,6 +5,9 @@
 body {
      
 }
+html {
+    scroll-behavior: smooth;
+}
   /* Custom styles for video background */
   .video-background {
     position: absolute;
