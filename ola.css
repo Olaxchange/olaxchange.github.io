@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+     
+}
+  /* Custom styles for video background */
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+#myVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures video covers the whole background */
+}
+
+
+.hero {
+    position: relative;
+    top: 0%;
+    transform: translateX(-50);
+    color: white;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    padding: 10vh 20px;
+    box-sizing: border-box;
+}
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.5rem;
+}
+.container.my- {
+    margin-top: 800vh;
+    z-index: 2;
+}
+.row {
+    margin-top: 2rem;
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1);
+}
+.card:hover {
+    transform: scale(1.5);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 00.3s) ;
+}
+.card-ing-top {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(0.9);
+    object-fit: cover;
+}
+
+.card-ing-top:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 00.3s);
+}
+ /* Footer Styling */
+ .footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: #25D366;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 4px 8px rgb(0,0,0);
+    border-radius: 25px;
+    text-decoration: none;
+    
+}
+.whatsapp-button img {
+    width: 20px;
+    height: auto;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e;
+}
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1.2rem;
+    }
+}
+.payment-options {
+    background-color: black;
+    color: #f8f9fa;
+}
