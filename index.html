@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real Estate Project</title>
+    <!-- Font Awesome for icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <!-- Local Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="ola.css"> <!-- Custom CSS for Styling -->
@@ -55,7 +57,7 @@
                     <img src="image/houses-5514892_1280.jpg" class="card-img-top" alt="Modern Apartment">
                     <div class="card-body">
                         <h5 class="card-title">Modern Apartment</h5>
-                        <p class="card-text">$500,000</p>
+                        <p class="card-text">#150,000</p>
                         <a href="#" class="btn btn-primary">View Details</a>
                     </div>
                 </div>
@@ -65,7 +67,7 @@
                     <img src="image/house-5902665_1280.jpg" class="card-img-top" alt="Luxury Villa">
                     <div class="card-body">
                         <h5 class="card-title">Luxury Villa</h5>
-                        <p class="card-text">$1,200,000</p>
+                        <p class="card-text">#70,000,000</p>
                         <a href="#" class="btn btn-primary">View Details</a>
                     </div> 
                 </div>
@@ -75,7 +77,7 @@
                     <img src="image/exzenterhaus-2175925_1280.jpg" class="card-img-top" alt="Cozy Cottage">
                     <div class="card-body">
                         <h5 class="card-title">Cozy Cottage</h5>
-                        <p class="card-text">$300,000</p>
+                        <p class="card-text">#100,00,000</p>
                         <a href="#" class="btn btn-primary">View Details</a>
                     </div>
                 </div>
@@ -109,19 +111,85 @@
             <ul class="list-unstyled">
                 <li><strong>Lagos</strong> – Prime residential and commercial properties in Nigeria's largest city.</li>
                 <li><strong>Abuja</strong> – Discover luxury homes and land in the nation's capital.</li>
-                <li><strong>Port Harcourt</strong> – Affordable housing and land for development in this growing city.</li>
-                <li><strong>Ibadan</strong> – Spacious land and residential properties in Nigeria's historical city.</li>
+                <li><strong>Ogun</strong> – Affordable housing and land for development in this growing city.</li>
+                <li><strong>Oyo</strong> – Spacious land and residential properties in Nigeria's historical city.</li>
+                <strong>Osun</strong>||<strong>Ekiti</strong>||<strong>Jos</strong>||<strong>Nasarawa</strong>||<strong>Niger</strong><br>etc...</br>
             </ul>
         </div>
     </section>
+     <!-- Contact Section -->
+     <section class="contact-form py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Get in Touch</h2>
+            <form action="submit_form.php" method="POST">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            </form>
+        </div>
+    </section>
 
-    <!-- Contact Section -->
+    <!-- Testimonials Section -->
+    <section class="testimonials py-5">
+        <div class="container text-center">
+            <h2>What Our Clients Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <blockquote>
+                        "I found my dream home with ease, thanks to the amazing team!"
+                        <footer>- GCFR Bola Ahmed Tinubu</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote>
+                        "The flexible payment plans made it possible to invest in my future."
+                        <footer>- Bakre Shukurat</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote>
+                        "Excellent service and support from start to finish."
+                        <footer>- Adelaja Hammed</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
+        <div class="container text-center">
+        
+            <div>
+                <a href="https://x.com/olaxchange347?s=21&t=-Tg0blLa6ACk2o0YQsVJMg" target="_blank" class="btn btn-twitter">
+                    <i class="fab fa-twitter"></i> Follow us on T<span style="color: #3c3cfe;">witter</span>
+                </a>
+                
+                <a href="https://www.instagram.com/ola__consult1952?igsh=MXdpZDY4Nnc1aTR3Ng%3D%3D&utm_source=qr" target="_blank" class="btn btn-instagram">
+                    <i class="fab fa-instagram"></i> Follow us on <span style="color: red;">Instagram</span>
+                </a>
+                
+            </div>
+        </div>
         <a href="https://wa.me/2349052405522" id="whatsapp-button" class="whatsapp-button" target="_blank">
             <img src="image/whatsapp.png" alt="whatsapp"> How can I help you?
         </a>
         <div class="created-container">
-        <p>&copy; 2024 OLACONSULT Real Estate Co. All rights reserved. Powered by <span style="color: red;">EasyClick</span> Computers.</p>
+        <p>&copy; 2024 <span style="color: red;">OLACONSULT</span> Real Estate Co.</p>
         </div>
     </footer>
 
